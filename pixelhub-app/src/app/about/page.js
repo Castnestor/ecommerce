@@ -2,7 +2,7 @@
 
 export default function about() {
     return(
-        <div className="flex items-center justify-center flex-col min-h-screen">
+        <div>
             <h2 className="text-4xl">About</h2>
         </div>
     )
