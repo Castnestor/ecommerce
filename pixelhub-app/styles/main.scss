@@ -5,10 +5,15 @@
 $gradient1: #000000;
 $gradient2: #133642;
 $gradient3: #39A6A8;
+$primary: #4BDBD8;
 
 body {
   background: linear-gradient(to right, $gradient1, $gradient2, $gradient3);
   min-height: 100vh;
+  color: red;
+  h3 {
+    font-size: 1.5rem;
+  }
 }
 
 header {
@@ -17,7 +22,7 @@ header {
   justify-content: space-between;
   background-color: rgba(255, 255, 255, 0);
   padding: 0.5rem;
-  color: #4BDBD8;
+  color: $primary;
   max-height: 6rem;
 
   nav {
@@ -31,15 +36,24 @@ footer {
   justify-content: center;
   
   .div-container-0 {
+    color: $primary;
     width: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
-    }
+  }
 
   .div-container-1 {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+
+    .logos {
+      display: flex;
+      flex-direction: row;
+      a {
+        padding: 2rem 1rem 1rem 0;
+      }
+    }
   }
 }

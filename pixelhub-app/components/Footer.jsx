@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
-// import facebook from "../public/home_facebook-icon-50x50.png"
-// import instagram from "../public/home_insta-icon-50x50.pgn";
-import logo from "../public/home_pixelhub-nz-logo-325x125.png";
+import facebook from "../public/home_facebok-icon-50x50.png"
+import instagram from "../public/home_insta-icon-50x50.png";
+import linkedin from "../public/home_linkedin-icon-50x50.png";
 
 export default function Footer() {
   return (
@@ -27,8 +27,11 @@ export default function Footer() {
         </div>
         <div className="div-container-1">
           <h3>Let's Connect</h3>
-          <Link href="#"><Image alt="Instagram Icon"/></Link>
-          {/*images goes here*/}
+          <div className="logos">
+          <Link href="#"><Image src={linkedin} alt="Instagram Icon"/></Link>
+          <Link href="#"><Image src={facebook} alt="Instagram Icon"/></Link>
+          <Link href="#"><Image src={instagram} alt="Instagram Icon"/></Link>
+          </div>
         </div>
         <div className="div-container-1">
           <h3>Suscribe to our Newsletter</h3>
