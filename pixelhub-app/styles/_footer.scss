@@ -1,0 +1,26 @@
+footer {
+    display: flex;
+    justify-content: center;
+    
+    .div-container-0 {
+      color: $primary;
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-around;
+    }
+  
+    .div-container-1 {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+  
+      .logos {
+        display: flex;
+        flex-direction: row;
+        a {
+          padding: 2rem 1rem 1rem 0;
+        }
+      }
+    }
+  }
