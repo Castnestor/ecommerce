@@ -28,16 +28,19 @@ export default function Footer() {
         <div className="div-container-1">
           <h3>Let's Connect</h3>
           <div className="logos">
-          <Link href="#"><Image src={linkedin} alt="Instagram Icon"/></Link>
-          <Link href="#"><Image src={facebook} alt="Instagram Icon"/></Link>
-          <Link href="#"><Image src={instagram} alt="Instagram Icon"/></Link>
+          <Link href="https://www.linkedin.com/company/pixelhub-nz/"><Image src={linkedin} alt="Linkedin Icon"/></Link>
+          <Link href="https://www.facebook.com/profile.php?id=100095197124144"><Image src={facebook} alt="Facebook Icon"/></Link>
+          <Link href="https://www.instagram.com/pixelhubnz/"><Image src={instagram} alt="Instagram Icon"/></Link>
           </div>
         </div>
         <div className="div-container-1">
           <h3>Suscribe to our Newsletter</h3>
         </div>
       </div>
-      <div></div>
+      <div className="div-container-notes">
+        <p>PixelHub 2024. All rights reserved.</p>
+        <p>Operated from Auckland, NZ</p>
+      </div>
     </footer>
   );
 }

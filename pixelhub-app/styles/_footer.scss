@@ -1,6 +1,8 @@
 footer {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    background-color: #133642;
     
     .div-container-0 {
       color: $primary;
@@ -22,5 +24,12 @@ footer {
           padding: 2rem 1rem 1rem 0;
         }
       }
+    }
+
+    .div-container-notes {
+      display: flex;
+      justify-content: space-between;
+      padding: 3rem 5rem;
+      color: $primary;
     }
   }
