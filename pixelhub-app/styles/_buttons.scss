@@ -1,0 +1,19 @@
+@import "./variables";
+
+.btn {
+    padding: 0.7rem 2rem;
+    border-radius: 10px;
+    margin: 1rem 0rem 0rem 0;
+}
+
+.btn-primary {
+    background-color: $primary;
+    color: $gradient2;   
+}
+
+.btn-secondary {
+    border-style: solid;
+    border-color: $primary;
+    border-width: 2px;
+    color: $primary;
+}

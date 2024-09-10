@@ -1,3 +1,5 @@
+@import "./variables";
+
 .hero-section {
     background: url("/images/home_graphic-design-and-digital-marketing-nz-pixelhub-1920x1050.webp");
     background-size: cover;
@@ -5,11 +7,24 @@
 
     
     .information {
-        max-width: 45%;
-    }
+        max-width: 55%;
+        padding: $general-padding;
 
-    .buttons {
-        display: flex;
-        padding: 3rem;
+        h1 {
+            font-size: 3.75rem;
+            font-weight: 700;
+        }
+        p {
+            font-size: 2rem;
+        }
+        h2 {
+            font-size: 1.5rem;
+            color: $primary;
+            text-decoration: underline;
+        }
+        .buttons {
+            display: flex;
+            gap: 1rem;
+        }
     }
 }

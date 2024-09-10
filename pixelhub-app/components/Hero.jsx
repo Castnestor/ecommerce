@@ -1,4 +1,6 @@
+import Link from 'next/link'
 import ButtonTypes from './Button'
+import Button from './Button'
 
 
 export default function Hero() {
@@ -18,8 +20,8 @@ export default function Hero() {
           <h2>GRAPHIC DESIGN - DIGITAL MARKETING - CONTENT CREATION</h2>
         </div>
         <div className="buttons">
-          <ButtonTypes variant="contained" background="#4BDBD8" color="#133642">Button1</ButtonTypes>
-          <ButtonTypes variant="outlined" background="rgba(0,0,0,0)">Button2</ButtonTypes>
+          <Button lRef="#" type="btn-primary">Button 1</Button>
+          <Button lRef="#" type="btn-secondary">Button 2</Button>
           {/*buttons*/}
         </div>
       </div>
