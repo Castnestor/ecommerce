@@ -1,11 +1,11 @@
-import Cart from "../../components/Cart";
+import GraphicBanner from "../../components/GraphicBanner";
 import Hero from "../../components/Hero";
 
 export default function Home() {
   return (
     <div>
       <Hero/>
-      <Cart>Hello</Cart>
+      <GraphicBanner/>
     </div>
   );
 }

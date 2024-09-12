@@ -12,10 +12,14 @@ export default function Cart() {
         ></Image>
       </div>
       <div className="cart-info">
-
-      </div>
-      <div className="cart-btn">
-        <Button lRef="#" style="outlined">I'm a Button</Button>
+        <div className="cart-info">
+          <p>bla bla bla bla bla blabla bla</p>
+        </div>
+        <div className="cart-btn">
+          <Button lRef="#" type="btn-primary">
+            I'm a Button
+          </Button>
+        </div>
       </div>
     </div>
   );
