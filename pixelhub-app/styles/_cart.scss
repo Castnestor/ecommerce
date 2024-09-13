@@ -1,9 +1,15 @@
+.cartcolor-black {
+    background-color: $backBlack;
+}
+.cartcolor-green {
+    background-color: $backgreen;
+}
+.cartcolor-aqua {
+    background-color: $backAqua;
+}
+
 .cart-content{
-    border-style: solid;
-    border-color: aqua;
-    height: 615px;
-    border-width: 2px;
-    border-radius: 10px;
+    height: 1000px;
     width: 615px;
     margin: 0.7rem;
     .cart-image {
@@ -20,7 +26,18 @@
     .cart-info {
         display: flex;
         flex-direction: column;
-        p {
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+        height: 45%;
+
+        h3{
+            font-size: 2rem;
+            margin: 3rem;
+        }
+        
+        .cart-list {
+            font-size: 1.5rem;
             text-align: center;
         }
     }

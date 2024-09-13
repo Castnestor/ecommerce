@@ -5,7 +5,9 @@ export default function Home() {
   return (
     <div>
       <Hero/>
+      <section className="section-packages">
       <GraphicBanner/>
+      </section>
     </div>
   );
 }
