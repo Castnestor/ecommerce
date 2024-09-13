@@ -10,7 +10,7 @@ export default function Outsorce() {
           fill
         />
       </div>
-      <div className="outcome-data">
+      <div className="outsorce-data">
         <h3>Why Outsource Your Visual Content Creation?</h3>
         <ul>
           <li>Enhance your branding</li>
